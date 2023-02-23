@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../assets/logo-dark.svg'
 
 function Header() {
   const [visible, setVisible] = useState(false)
@@ -11,7 +12,9 @@ function Header() {
         <p className='tracking-[14px] '>HOME</p>
       </div>
       <div className='flex items-center sm:w-[500px] justify-between mb-8 sm:mb-0'>
-        <h1 className='font-bold text-4xl'>Arch</h1>
+        <Link to='/'>
+          <img src={logo} className='w-24' alt="Arch logo" />
+        </Link>
         <ul className='text-gray-500 sm:text-base font-semibold sm:flex sm:gap-10 hidden'>
           <li>
             <Link to='/profile'>Profile</Link>
