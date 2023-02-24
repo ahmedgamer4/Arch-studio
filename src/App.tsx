@@ -3,9 +3,9 @@ import Header from './components/layout/Header'
 import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom'
 import Footer from './components/layout/Footer'
 import Home from './pages/Home'
-import Profile from './pages/Profile'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Profile from './pages/Profile'
 
 function App() {
   return (

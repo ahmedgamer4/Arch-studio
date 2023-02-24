@@ -2,8 +2,8 @@ import React from 'react'
 import Hero from '../components/Hero'
 import data from '../../json/data.json'
 import { Link } from 'react-router-dom'
-import arrow from '../../assets/icons/icon-arrow-black.svg'
-import mapImg from '../../assets/contact/desktop/image-map.png'
+import arrow from '/assets/icons/icon-arrow-black.svg'
+import mapImg from '/assets/contact/desktop/image-map.png'
 import { Variants, motion } from 'framer-motion'
 
 const contactVariants: Variants = {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Gallery from '../Gallery'
-import welcomeImage from '../../../assets/home/desktop/image-welcome.jpg'
+import welcomeImage from '/assets/home/desktop/image-welcome.jpg'
 import Slide from '../Slide'
 import data from '../../../json/data.json'
 import Featured from '../Featured'

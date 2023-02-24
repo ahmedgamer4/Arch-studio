@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import arrow from '../../assets/icons/icon-arrow-black.svg'
+import arrow from '/assets/icons/icon-arrow-black.svg'
 import data from '../../json/data.json'
 import Card from './Card'
 
