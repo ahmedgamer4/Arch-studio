@@ -10,7 +10,6 @@ import Profile from './pages/Profile'
 function App() {
   return (
     <div className='min-h-screen'>
-      <Router>
         <Header />
         <Routes>
           <Route path='/' element={<Home />} />
@@ -20,7 +19,6 @@ function App() {
           <Route path='*' element={<Navigate to='/' />} />
         </Routes>
         <Footer />
-      </Router>
     </div>
   )
 }
