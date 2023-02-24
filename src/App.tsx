@@ -1,15 +1,24 @@
 import React from 'react'
 import Header from './components/Header'
-import Main from './components/Main'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom'
 import Footer from './components/Footer'
+import Home from './pages/Home'
+import Profile from './pages/Profile'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 function App() {
   return (
-    <div>
+    <div className='min-h-screen'>
       <Router>
         <Header />
-        <Main />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/portfolio' element={<Profile />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
+          <Route path='*' element={<Navigate to='/' />} />
+        </Routes>
         <Footer />
       </Router>
     </div>

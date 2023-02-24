@@ -14,7 +14,7 @@ function Footer() {
         </div>
         <ul className='md:flex justify-center items-center gap-12 text-gray-800 font-bold'>
           <li>
-            <Link to='/profile'>Profile</Link>
+            <Link to='/portfolio'>Profile</Link>
           </li>
           <li className='mt-5 md:m-0'>
             <Link to='/about'>About Us</Link>
@@ -23,7 +23,7 @@ function Footer() {
             <Link to='/contact'>Contact</Link>
           </li>
         </ul>
-        <Link to='/profile' className='text-white mt-5 flex justify-between w-52 items-center bg-gray-800
+        <Link to='/portfolio' className='text-white mt-5 flex justify-between w-52 items-center bg-gray-800
          hover:bg-gray-600 py-6 px-5 sm:px-6 hover:pr-4 transition-[padding] duration-200 md:absolute -right-20'>
           <p className='text-sm font-semibold'>See Our Portfolio</p>
           <img className='invert w-6' src={arrow} alt="" />
