@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/layout/Header'
-import { BrowserRouter as Router, Navigate, Route, Routes } from 'react-router-dom'
+import { Navigate, Route, Routes } from 'react-router-dom'
 import Footer from './components/layout/Footer'
 import Home from './pages/Home'
 import About from './pages/About'
