@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* *{ border: 1px solid red;} */
+
 header { 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

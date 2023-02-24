@@ -27,7 +27,7 @@ function About() {
         <div className='text-6xl font-bold max-w-xs'>
           <div>{about.leaders.heading}</div>
         </div>
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-9 '>{about.leaders.people.map(p => (
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-9 gap-y-14 mt-9'>{about.leaders.people.map(p => (
           <LeaderCard image={p.image} name={p.name} role={p.role} key={p.name} />
         ))}</div>
       </section>

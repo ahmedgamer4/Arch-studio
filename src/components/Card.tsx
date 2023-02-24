@@ -19,10 +19,10 @@ type CardProps = {
 
 const cardVariants: Variants = {
   offscreen: {
-    y: 200
+    y: 100
   },
   onscreen: {
-    y: 50,
+    y: 0,
     transition: {
       type: "spring",
       duration: 1,

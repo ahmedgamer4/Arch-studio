@@ -1,10 +1,20 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import data from '../../json/data.json'
 import Slide from './Slide'
 
 function Gallery() {
-  const [currentImage, setCurrentImage] = useState(1)
+  const [currentImage, setCurrentImage] = useState(0)
   const { slides } = data.home.hero
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      currentImage === 3 ?
+        setCurrentImage(0) :
+        setCurrentImage(prev => prev + 1)
+    }, 5000)
+
+    return () => clearInterval(interval) 
+  }, [currentImage])
 
   return (
     <div>

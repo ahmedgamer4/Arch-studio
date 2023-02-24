@@ -8,7 +8,7 @@ function Featured() {
   const { projects } = data.portfolio
   return (
     <section className='mt-20 px-2 sm:p-0'>
-      <div className='flex justify-between w-full items-center -mb-8'>
+      <div className='flex justify-between w-full items-center'>
         <h2 className='text-5xl font-bold'>Featured</h2>
         <Link to='/portfolio' className='hidden md:flex mt-5 justify-between w-36 sm:w-40 items-center bg-gray-800 hover:bg-gray-600 py-4 px-5 sm:px-6 hover:pr-4 transition-[padding] duration-200'>
           <p className='font-semibold text-white'>See All</p>

@@ -385,9 +385,9 @@
         "We'd love to hear more about your project. Please, leave a message below or give us a call. We have two offices, one in Texas and one in Tennessee. If you find yourself nearby, come say hello!"
       ],
       "image": {
-        "desktop": "/assets/about/desktop/image-hero.jpg",
-        "tablet": "/assets/about/desktop/image-hero.jpg",
-        "mobile": "/assets/about/desktop/image-hero.jpg"
+        "desktop": "/assets/contact/desktop/image-hero.jpg",
+        "tablet": "/assets/contact/desktop/image-hero.jpg",
+        "mobile": "/assets/contact/desktop/image-hero.jpg"
       }
     },
     "details": {
