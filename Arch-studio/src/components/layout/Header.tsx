@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import logo from '../../assets/logo-dark.svg'
+import logo from '../../../assets/logo-dark.svg'
 
 function Header() {
   const [visible, setVisible] = useState(false)
